@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="0"
+        android:textSize="36sp"
+        android:background="#E0E0E0"
+        android:padding="16dp"/>
+
+    <GridLayout
+        android:layout_below="@id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="4">
+
+
+        <Button android:text="7" android:id="@+id/boton7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="8" android:id="@+id/boton8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="9" android:id="@+id/boton9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="/" android:id="@+id/botonDividir" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+
+        <Button android:text="4" android:id="@+id/boton4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="5" android:id="@+id/boton5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="6" android:id="@+id/boton6" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="*" android:id="@+id/botonMultiplicar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+
+        <Button android:text="1" android:id="@+id/boton1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="2" android:id="@+id/boton2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="3" android:id="@+id/boton3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="-" android:id="@+id/botonRestar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+
+        <Button android:text="0" android:id="@+id/boton0" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="C" android:id="@+id/botonBorrar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="=" android:id="@+id/botonIgual" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+        <Button android:text="+" android:id="@+id/botonMas" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1"/>
+
+    </GridLayout>
+</RelativeLayout>
